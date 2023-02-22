@@ -635,7 +635,7 @@ task nextstrain_deduplicate_sequences {
         String docker                      = "nextstrain/base:build-20211012T204409Z"
     }
 
-    Int disk_size = 375
+    Int disk_size = 500
 
     parameter_meta {
         sequences_fasta: {
